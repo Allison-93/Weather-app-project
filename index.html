@@ -15,21 +15,28 @@
   <body>
     <div class="weather-container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter City..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter City..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Monday 14:30 partly cloudy,
-            <br />
-            Humidity: 50% Wind: 3.1km/h
-          </p>
+        <div class="weather">
+          <div>
+            <h1 class="city">Paris</h1>
+            <p class="current-weather">
+              Monday 14:30 partly cloudy,
+              <br />
+              Humidity:<strong>50%</strong> Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div>🌤️12&deg;C</div>
         </div>
-        <div>🌤️ 12&deg;C</div>
       </main>
       <footer>
         Coded by
