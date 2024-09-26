@@ -15,8 +15,8 @@
   <body>
     <div class="weather-container">
       <header>
-        <form class="search-form">
-          <input
+        <form class="search-form" id="search-form">
+          <input id="search-form-input"
             type="search"
             placeholder="Enter City..."
             required
@@ -28,7 +28,7 @@
       <main>
         <div class="weather">
           <div>
-            <h1 class="city">Paris</h1>
+            <h1 class="city" id="current-city">Paris</h1>
             <p class="current-weather">
               Monday 14:30 partly cloudy,
               <br />
@@ -57,5 +57,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
