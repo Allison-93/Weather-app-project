@@ -64,3 +64,19 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.weather-app-info {
+  display: flex;
+}
+.weather-unit {
+  font-size: 88px;
+  font-weight: bold;
+}
+.weather-icon {
+  font-size: 44px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.weather-metric {
+  margin-top: 20px;
+  font-size: 24px;
+}
