@@ -69,14 +69,15 @@ footer {
 }
 .weather-unit {
   font-size: 88px;
+  margin-left: 10px;
+  line-height: 88px;
   font-weight: bold;
 }
 .weather-icon {
-  font-size: 44px;
-  margin-top: 20px;
-  margin-left: 10px;
+  width: 88px;
+  height: 88px;
 }
 .weather-metric {
-  margin-top: 20px;
-  font-size: 24px;
+  margin-top: 10px;
+  font-size: 28px;
 }
