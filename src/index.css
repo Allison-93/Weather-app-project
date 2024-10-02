@@ -46,7 +46,7 @@ body {
     font-weight: 500;
   }
   .current-weather strong {
-    color: rgb(253, 81, 110);
+    color: #f65282;
   }
 }
 main {
@@ -80,4 +80,27 @@ footer {
 .weather-metric {
   margin-top: 10px;
   font-size: 28px;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+}
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  margin-top: 10px;
+  color: #f65282;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast {
+  display: flex;
 }

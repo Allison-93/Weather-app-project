@@ -17,7 +17,8 @@
     <div class="weather-container">
       <header>
         <form class="search-form" id="search-form">
-          <input id="search-form-input"
+          <input
+            id="search-form-input"
             type="search"
             placeholder="Enter City..."
             required
@@ -33,23 +34,38 @@
             <p class="current-weather">
               <span id="time"></span> <span id="description">,</span>
               <br />
-              Humidity:<strong id="humidity"></strong> Wind: <strong id="wind-speed"></strong>
+              Humidity:<strong id="humidity"></strong> Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-info">
             <div id="icon"></div>
-
-          <div id="temperature" class="weather-unit"></div>
-          <div class="weather-metric">&deg;C</div>
+            <div id="temperature" class="weather-unit"></div>
+            <div class="weather-metric">&deg;C</div>
           </div>
-        </main>
+        </div>
         <div class="weather-forecast">
-           <div class="weather-forecast-day">
+          <div class="weather-forecast-day">
             <div class="weather-forecast-date">Tues</div>
             <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">15&deg; 9&deg;</div>
-           </div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15&deg;</strong>
+              </div>
+              <div class="weather-forecast-temperature">9&deg;</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day"></div>
+          <div class="weather-forecast-date">Tues</div>
+          <div class="weather-forecast-icon">🌤️</div>
+          <div class="weather-forecast-temperatures">
+            <div class="weather-forecast-temperature">
+              <strong>15&deg;</strong>
+            </div>
+            <div class="weather-forecast-temperature">9&deg;</div>
+          </div>
         </div>
+      </main>
       <footer>
         Coded by
         <a href="https://github.com/Allison-93" target="_blank"
