@@ -21,7 +21,7 @@ function refreshWeather(response) {
 
 function formatDate(date) {
   let minutes = date.getMinutes();
-  let hour = date.getHours();
+  let hours = date.getHours();
   let days = [
     "Sunday",
     "Monday",
@@ -35,7 +35,7 @@ function formatDate(date) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  return `${day} ${hour}:${minutes}`;
+  return `${day} ${hours}:${minutes}`;
 }
 
 function searchCity(city) {
@@ -73,7 +73,7 @@ function displayForecast(response) {
               <div class="weather-forecast-temperature">
                 <strong>${Math.round(day.temperature.maximum)}&deg;</strong>
               </div>
-              <div class="weather-forecast-temperature">${math.round(
+              <div class="weather-forecast-temperature">${Math.round(
                 day.temperature.minimum
               )}&deg;</div>
             </div>
